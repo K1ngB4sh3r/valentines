@@ -4,17 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build", // Removed `next export`
+    "build": "next build", 
     "start": "next start",
     "lint": "next lint",
-    "update-browserslist": "npx update-browserslist-db@latest" // Added script to update browserslist
+    "update-browserslist": "npx update-browserslist-db@latest"
   },
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
     "next": "14.1.0",
-    "framer-motion": "^10.16.4", // Added for animations
-    "next-images": "^1.8.0" // Optional: For easier image imports
+    "framer-motion": "^10.16.4", 
+    "next-images": "^1.8.0" 
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
@@ -22,7 +22,7 @@
     "tailwindcss": "^3.3.0",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
-    "@next/bundle-analyzer": "^14.1.0", // Optional: For bundle analysis
-    "typescript": "^5.0.0" // Optional: If using TypeScript
+    "@next/bundle-analyzer": "^14.1.0", 
+    "typescript": "^5.0.0" 
   }
 }
